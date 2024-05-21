@@ -1,17 +1,15 @@
 @font-face {
   font-family: "DSEG7";
-  src: 
-    url("fonts/DSEG7.woff2") format("woff2"),
+  src: url("fonts/DSEG7.woff2") format("woff2"),
     url("fonts/DSEG7.woff") format("woff"),
     url("fonts/DSEG7.ttf") format("truetype");
-    
 }
 
 body {
   background: #000;
 }
 
-.counter{
+.counter {
   --color: #e00;
   --dark-color: color-mix(in srgb, var(--color), black 85%);
 
@@ -22,7 +20,7 @@ body {
   position: relative;
 }
 
-.digits::before{
+.digits::before {
   content: "888888";
   color: var(--dark-color);
   position: absolute;
